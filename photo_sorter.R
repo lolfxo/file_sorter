@@ -12,10 +12,12 @@ photo_sorter = function(input_dir, output_dir,date1, date2){
     dir.create(output_dir)
   }
   
+  # start date
   d1 = strftime(as.Date(date1),"%d")
   m1 = strftime(as.Date(date1),"%m")
   y1 = strftime(as.Date(date1),"%y")
   
+  # end date
   d2 = strftime(as.Date(date2),"%d")
   m2 = strftime(as.Date(date2),"%m")
   y2 = strftime(as.Date(date2),"%y")
